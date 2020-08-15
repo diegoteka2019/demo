@@ -12,13 +12,14 @@ import java.util.Map;
 
 @RestController
 public class HomeController {
-    @Value("${app.version}")
+//    @Value("${app.version}")
     private String appVersion;
 
     @RequestMapping("/")
-    public Map GetVersion() {
-        Map map = new HashMap<String,String>();
-        map.put("app-version",appVersion);
-        return map;
+    public String GetVersion() {
+//        Map map = new HashMap<String,String>();
+//        map.put("app-version",appVersion);
+//        return map;
+        return "HOLA DIEGO";
     }
 }

@@ -1,0 +1,8 @@
+com\conference\demo\controllers\SpeakersController.class
+com\conference\demo\models\Speaker.class
+com\conference\demo\controllers\SessionsController.class
+com\conference\demo\repositories\SessionRepository.class
+com\conference\demo\controllers\HomeController.class
+com\conference\demo\models\Session.class
+com\conference\demo\DemoApplication.class
+com\conference\demo\repositories\SpeakerRepository.class
